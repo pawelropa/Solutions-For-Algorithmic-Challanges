@@ -1,0 +1,201 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4CEE5BC413ACF3B0003DEEDD /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4CEE5BC313ACF3B0003DEEDD /* main.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		4CEE5BBD13ACF3B0003DEEDD /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		4CEE5BBF13ACF3B0003DEEDD /* 1016-Predkość średnia */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "1016-Predkość średnia"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4CEE5BC313ACF3B0003DEEDD /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		4CEE5BC513ACF3B0003DEEDD /* _016_Predkos_c__s_rednia.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = _016_Predkos_c__s_rednia.1; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4CEE5BBC13ACF3B0003DEEDD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4CEE5BB413ACF3B0003DEEDD = {
+			isa = PBXGroup;
+			children = (
+				4CEE5BC213ACF3B0003DEEDD /* 1016-Predkość średnia */,
+				4CEE5BC013ACF3B0003DEEDD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4CEE5BC013ACF3B0003DEEDD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4CEE5BBF13ACF3B0003DEEDD /* 1016-Predkość średnia */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4CEE5BC213ACF3B0003DEEDD /* 1016-Predkość średnia */ = {
+			isa = PBXGroup;
+			children = (
+				4CEE5BC313ACF3B0003DEEDD /* main.cpp */,
+				4CEE5BC513ACF3B0003DEEDD /* _016_Predkos_c__s_rednia.1 */,
+			);
+			path = "1016-Predkość średnia";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4CEE5BBE13ACF3B0003DEEDD /* 1016-Predkość średnia */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4CEE5BC813ACF3B0003DEEDD /* Build configuration list for PBXNativeTarget "1016-Predkość średnia" */;
+			buildPhases = (
+				4CEE5BBB13ACF3B0003DEEDD /* Sources */,
+				4CEE5BBC13ACF3B0003DEEDD /* Frameworks */,
+				4CEE5BBD13ACF3B0003DEEDD /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "1016-Predkość średnia";
+			productName = "1016-Predkość średnia";
+			productReference = 4CEE5BBF13ACF3B0003DEEDD /* 1016-Predkość średnia */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4CEE5BB613ACF3B0003DEEDD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = Studen;
+			};
+			buildConfigurationList = 4CEE5BB913ACF3B0003DEEDD /* Build configuration list for PBXProject "1016-Predkość średnia" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 4CEE5BB413ACF3B0003DEEDD;
+			productRefGroup = 4CEE5BC013ACF3B0003DEEDD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4CEE5BBE13ACF3B0003DEEDD /* 1016-Predkość średnia */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4CEE5BBB13ACF3B0003DEEDD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4CEE5BC413ACF3B0003DEEDD /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		4CEE5BC613ACF3B0003DEEDD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		4CEE5BC713ACF3B0003DEEDD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		4CEE5BC913ACF3B0003DEEDD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		4CEE5BCA13ACF3B0003DEEDD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4CEE5BB913ACF3B0003DEEDD /* Build configuration list for PBXProject "1016-Predkość średnia" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4CEE5BC613ACF3B0003DEEDD /* Debug */,
+				4CEE5BC713ACF3B0003DEEDD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4CEE5BC813ACF3B0003DEEDD /* Build configuration list for PBXNativeTarget "1016-Predkość średnia" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4CEE5BC913ACF3B0003DEEDD /* Debug */,
+				4CEE5BCA13ACF3B0003DEEDD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4CEE5BB613ACF3B0003DEEDD /* Project object */;
+}

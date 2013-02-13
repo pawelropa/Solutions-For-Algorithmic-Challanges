@@ -1,0 +1,201 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4CFA684E13AB6A59002E6B41 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4CFA684D13AB6A59002E6B41 /* main.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		4CFA684713AB6A58002E6B41 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		4CFA684913AB6A58002E6B41 /* 1139-Nowa działka */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "1139-Nowa działka"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4CFA684D13AB6A59002E6B41 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		4CFA684F13AB6A59002E6B41 /* _139_Nowa_dzia_ka.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = _139_Nowa_dzia_ka.1; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4CFA684613AB6A58002E6B41 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4CFA683E13AB6A58002E6B41 = {
+			isa = PBXGroup;
+			children = (
+				4CFA684C13AB6A58002E6B41 /* 1139-Nowa działka */,
+				4CFA684A13AB6A58002E6B41 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4CFA684A13AB6A58002E6B41 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4CFA684913AB6A58002E6B41 /* 1139-Nowa działka */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4CFA684C13AB6A58002E6B41 /* 1139-Nowa działka */ = {
+			isa = PBXGroup;
+			children = (
+				4CFA684D13AB6A59002E6B41 /* main.cpp */,
+				4CFA684F13AB6A59002E6B41 /* _139_Nowa_dzia_ka.1 */,
+			);
+			path = "1139-Nowa działka";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4CFA684813AB6A58002E6B41 /* 1139-Nowa działka */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4CFA685213AB6A59002E6B41 /* Build configuration list for PBXNativeTarget "1139-Nowa działka" */;
+			buildPhases = (
+				4CFA684513AB6A58002E6B41 /* Sources */,
+				4CFA684613AB6A58002E6B41 /* Frameworks */,
+				4CFA684713AB6A58002E6B41 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "1139-Nowa działka";
+			productName = "1139-Nowa działka";
+			productReference = 4CFA684913AB6A58002E6B41 /* 1139-Nowa działka */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4CFA684013AB6A58002E6B41 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = Studen;
+			};
+			buildConfigurationList = 4CFA684313AB6A58002E6B41 /* Build configuration list for PBXProject "1139-Nowa działka" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 4CFA683E13AB6A58002E6B41;
+			productRefGroup = 4CFA684A13AB6A58002E6B41 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4CFA684813AB6A58002E6B41 /* 1139-Nowa działka */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4CFA684513AB6A58002E6B41 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4CFA684E13AB6A59002E6B41 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		4CFA685013AB6A59002E6B41 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		4CFA685113AB6A59002E6B41 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		4CFA685313AB6A59002E6B41 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		4CFA685413AB6A59002E6B41 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4CFA684313AB6A58002E6B41 /* Build configuration list for PBXProject "1139-Nowa działka" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4CFA685013AB6A59002E6B41 /* Debug */,
+				4CFA685113AB6A59002E6B41 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4CFA685213AB6A59002E6B41 /* Build configuration list for PBXNativeTarget "1139-Nowa działka" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4CFA685313AB6A59002E6B41 /* Debug */,
+				4CFA685413AB6A59002E6B41 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4CFA684013AB6A58002E6B41 /* Project object */;
+}

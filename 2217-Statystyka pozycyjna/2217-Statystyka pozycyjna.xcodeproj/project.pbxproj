@@ -1,0 +1,201 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4C3CDE9613BE3FB500E8BC1F /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4C3CDE9513BE3FB500E8BC1F /* main.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		4C3CDE8F13BE3FB500E8BC1F /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		4C3CDE9113BE3FB500E8BC1F /* 2217-Statystyka pozycyjna */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "2217-Statystyka pozycyjna"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4C3CDE9513BE3FB500E8BC1F /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		4C3CDE9713BE3FB500E8BC1F /* _217_Statystyka_pozycyjna.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = _217_Statystyka_pozycyjna.1; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4C3CDE8E13BE3FB500E8BC1F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4C3CDE8613BE3FB400E8BC1F = {
+			isa = PBXGroup;
+			children = (
+				4C3CDE9413BE3FB500E8BC1F /* 2217-Statystyka pozycyjna */,
+				4C3CDE9213BE3FB500E8BC1F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4C3CDE9213BE3FB500E8BC1F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4C3CDE9113BE3FB500E8BC1F /* 2217-Statystyka pozycyjna */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4C3CDE9413BE3FB500E8BC1F /* 2217-Statystyka pozycyjna */ = {
+			isa = PBXGroup;
+			children = (
+				4C3CDE9513BE3FB500E8BC1F /* main.cpp */,
+				4C3CDE9713BE3FB500E8BC1F /* _217_Statystyka_pozycyjna.1 */,
+			);
+			path = "2217-Statystyka pozycyjna";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4C3CDE9013BE3FB500E8BC1F /* 2217-Statystyka pozycyjna */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4C3CDE9A13BE3FB500E8BC1F /* Build configuration list for PBXNativeTarget "2217-Statystyka pozycyjna" */;
+			buildPhases = (
+				4C3CDE8D13BE3FB500E8BC1F /* Sources */,
+				4C3CDE8E13BE3FB500E8BC1F /* Frameworks */,
+				4C3CDE8F13BE3FB500E8BC1F /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "2217-Statystyka pozycyjna";
+			productName = "2217-Statystyka pozycyjna";
+			productReference = 4C3CDE9113BE3FB500E8BC1F /* 2217-Statystyka pozycyjna */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4C3CDE8813BE3FB400E8BC1F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = Studen;
+			};
+			buildConfigurationList = 4C3CDE8B13BE3FB400E8BC1F /* Build configuration list for PBXProject "2217-Statystyka pozycyjna" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 4C3CDE8613BE3FB400E8BC1F;
+			productRefGroup = 4C3CDE9213BE3FB500E8BC1F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4C3CDE9013BE3FB500E8BC1F /* 2217-Statystyka pozycyjna */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4C3CDE8D13BE3FB500E8BC1F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C3CDE9613BE3FB500E8BC1F /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		4C3CDE9813BE3FB500E8BC1F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		4C3CDE9913BE3FB500E8BC1F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		4C3CDE9B13BE3FB500E8BC1F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		4C3CDE9C13BE3FB500E8BC1F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4C3CDE8B13BE3FB400E8BC1F /* Build configuration list for PBXProject "2217-Statystyka pozycyjna" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4C3CDE9813BE3FB500E8BC1F /* Debug */,
+				4C3CDE9913BE3FB500E8BC1F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4C3CDE9A13BE3FB500E8BC1F /* Build configuration list for PBXNativeTarget "2217-Statystyka pozycyjna" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4C3CDE9B13BE3FB500E8BC1F /* Debug */,
+				4C3CDE9C13BE3FB500E8BC1F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4C3CDE8813BE3FB400E8BC1F /* Project object */;
+}

@@ -1,0 +1,201 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4CFA687C13AB7CBC002E6B41 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4CFA687B13AB7CBC002E6B41 /* main.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		4CFA687513AB7CBC002E6B41 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		4CFA687713AB7CBC002E6B41 /* 1240-Współliniowość punktów */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "1240-Współliniowość punktów"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4CFA687B13AB7CBC002E6B41 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		4CFA687D13AB7CBC002E6B41 /* _240_Wspo__liniowos_c__punkto_w.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = _240_Wspo__liniowos_c__punkto_w.1; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4CFA687413AB7CBC002E6B41 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4CFA686C13AB7CBC002E6B41 = {
+			isa = PBXGroup;
+			children = (
+				4CFA687A13AB7CBC002E6B41 /* 1240-Współliniowość punktów */,
+				4CFA687813AB7CBC002E6B41 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4CFA687813AB7CBC002E6B41 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4CFA687713AB7CBC002E6B41 /* 1240-Współliniowość punktów */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4CFA687A13AB7CBC002E6B41 /* 1240-Współliniowość punktów */ = {
+			isa = PBXGroup;
+			children = (
+				4CFA687B13AB7CBC002E6B41 /* main.cpp */,
+				4CFA687D13AB7CBC002E6B41 /* _240_Wspo__liniowos_c__punkto_w.1 */,
+			);
+			path = "1240-Współliniowość punktów";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4CFA687613AB7CBC002E6B41 /* 1240-Współliniowość punktów */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4CFA688013AB7CBC002E6B41 /* Build configuration list for PBXNativeTarget "1240-Współliniowość punktów" */;
+			buildPhases = (
+				4CFA687313AB7CBC002E6B41 /* Sources */,
+				4CFA687413AB7CBC002E6B41 /* Frameworks */,
+				4CFA687513AB7CBC002E6B41 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "1240-Współliniowość punktów";
+			productName = "1240-Współliniowość punktów";
+			productReference = 4CFA687713AB7CBC002E6B41 /* 1240-Współliniowość punktów */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4CFA686E13AB7CBC002E6B41 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = Studen;
+			};
+			buildConfigurationList = 4CFA687113AB7CBC002E6B41 /* Build configuration list for PBXProject "1240-Współliniowość punktów" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 4CFA686C13AB7CBC002E6B41;
+			productRefGroup = 4CFA687813AB7CBC002E6B41 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4CFA687613AB7CBC002E6B41 /* 1240-Współliniowość punktów */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4CFA687313AB7CBC002E6B41 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4CFA687C13AB7CBC002E6B41 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		4CFA687E13AB7CBC002E6B41 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		4CFA687F13AB7CBC002E6B41 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		4CFA688113AB7CBC002E6B41 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		4CFA688213AB7CBC002E6B41 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4CFA687113AB7CBC002E6B41 /* Build configuration list for PBXProject "1240-Współliniowość punktów" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4CFA687E13AB7CBC002E6B41 /* Debug */,
+				4CFA687F13AB7CBC002E6B41 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4CFA688013AB7CBC002E6B41 /* Build configuration list for PBXNativeTarget "1240-Współliniowość punktów" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4CFA688113AB7CBC002E6B41 /* Debug */,
+				4CFA688213AB7CBC002E6B41 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4CFA686E13AB7CBC002E6B41 /* Project object */;
+}

@@ -1,0 +1,201 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4CADF41913B671F40015F1A5 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4CADF41813B671F40015F1A5 /* main.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		4CADF41213B671F40015F1A5 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		4CADF41413B671F40015F1A5 /* 5517-Punkty w okręgu */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "5517-Punkty w okręgu"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4CADF41813B671F40015F1A5 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		4CADF41A13B671F40015F1A5 /* _517_Punkty_w_okre_gu.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = _517_Punkty_w_okre_gu.1; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4CADF41113B671F40015F1A5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4CADF40913B671F40015F1A5 = {
+			isa = PBXGroup;
+			children = (
+				4CADF41713B671F40015F1A5 /* 5517-Punkty w okręgu */,
+				4CADF41513B671F40015F1A5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4CADF41513B671F40015F1A5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4CADF41413B671F40015F1A5 /* 5517-Punkty w okręgu */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4CADF41713B671F40015F1A5 /* 5517-Punkty w okręgu */ = {
+			isa = PBXGroup;
+			children = (
+				4CADF41813B671F40015F1A5 /* main.cpp */,
+				4CADF41A13B671F40015F1A5 /* _517_Punkty_w_okre_gu.1 */,
+			);
+			path = "5517-Punkty w okręgu";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4CADF41313B671F40015F1A5 /* 5517-Punkty w okręgu */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4CADF41D13B671F40015F1A5 /* Build configuration list for PBXNativeTarget "5517-Punkty w okręgu" */;
+			buildPhases = (
+				4CADF41013B671F40015F1A5 /* Sources */,
+				4CADF41113B671F40015F1A5 /* Frameworks */,
+				4CADF41213B671F40015F1A5 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "5517-Punkty w okręgu";
+			productName = "5517-Punkty w okręgu";
+			productReference = 4CADF41413B671F40015F1A5 /* 5517-Punkty w okręgu */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4CADF40B13B671F40015F1A5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = Studen;
+			};
+			buildConfigurationList = 4CADF40E13B671F40015F1A5 /* Build configuration list for PBXProject "5517-Punkty w okręgu" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 4CADF40913B671F40015F1A5;
+			productRefGroup = 4CADF41513B671F40015F1A5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4CADF41313B671F40015F1A5 /* 5517-Punkty w okręgu */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4CADF41013B671F40015F1A5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4CADF41913B671F40015F1A5 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		4CADF41B13B671F40015F1A5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		4CADF41C13B671F40015F1A5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		4CADF41E13B671F40015F1A5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		4CADF41F13B671F40015F1A5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4CADF40E13B671F40015F1A5 /* Build configuration list for PBXProject "5517-Punkty w okręgu" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4CADF41B13B671F40015F1A5 /* Debug */,
+				4CADF41C13B671F40015F1A5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4CADF41D13B671F40015F1A5 /* Build configuration list for PBXNativeTarget "5517-Punkty w okręgu" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4CADF41E13B671F40015F1A5 /* Debug */,
+				4CADF41F13B671F40015F1A5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4CADF40B13B671F40015F1A5 /* Project object */;
+}

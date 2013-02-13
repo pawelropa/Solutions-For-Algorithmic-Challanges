@@ -1,0 +1,201 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4C84497013AFB157002AC356 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4C84496F13AFB157002AC356 /* main.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		4C84496913AFB157002AC356 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		4C84496B13AFB157002AC356 /* 4799-Zastępowanie trójznaków */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "4799-Zastępowanie trójznaków"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4C84496F13AFB157002AC356 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		4C84497113AFB158002AC356 /* _799_Zaste_powanie_tro_jznako_w.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = _799_Zaste_powanie_tro_jznako_w.1; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4C84496813AFB157002AC356 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4C84496013AFB157002AC356 = {
+			isa = PBXGroup;
+			children = (
+				4C84496E13AFB157002AC356 /* 4799-Zastępowanie trójznaków */,
+				4C84496C13AFB157002AC356 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4C84496C13AFB157002AC356 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4C84496B13AFB157002AC356 /* 4799-Zastępowanie trójznaków */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4C84496E13AFB157002AC356 /* 4799-Zastępowanie trójznaków */ = {
+			isa = PBXGroup;
+			children = (
+				4C84496F13AFB157002AC356 /* main.cpp */,
+				4C84497113AFB158002AC356 /* _799_Zaste_powanie_tro_jznako_w.1 */,
+			);
+			path = "4799-Zastępowanie trójznaków";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4C84496A13AFB157002AC356 /* 4799-Zastępowanie trójznaków */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4C84497413AFB158002AC356 /* Build configuration list for PBXNativeTarget "4799-Zastępowanie trójznaków" */;
+			buildPhases = (
+				4C84496713AFB157002AC356 /* Sources */,
+				4C84496813AFB157002AC356 /* Frameworks */,
+				4C84496913AFB157002AC356 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "4799-Zastępowanie trójznaków";
+			productName = "4799-Zastępowanie trójznaków";
+			productReference = 4C84496B13AFB157002AC356 /* 4799-Zastępowanie trójznaków */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4C84496213AFB157002AC356 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = Studen;
+			};
+			buildConfigurationList = 4C84496513AFB157002AC356 /* Build configuration list for PBXProject "4799-Zastępowanie trójznaków" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 4C84496013AFB157002AC356;
+			productRefGroup = 4C84496C13AFB157002AC356 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4C84496A13AFB157002AC356 /* 4799-Zastępowanie trójznaków */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4C84496713AFB157002AC356 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C84497013AFB157002AC356 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		4C84497213AFB158002AC356 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		4C84497313AFB158002AC356 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		4C84497513AFB158002AC356 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		4C84497613AFB158002AC356 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4C84496513AFB157002AC356 /* Build configuration list for PBXProject "4799-Zastępowanie trójznaków" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4C84497213AFB158002AC356 /* Debug */,
+				4C84497313AFB158002AC356 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4C84497413AFB158002AC356 /* Build configuration list for PBXNativeTarget "4799-Zastępowanie trójznaków" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4C84497513AFB158002AC356 /* Debug */,
+				4C84497613AFB158002AC356 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4C84496213AFB157002AC356 /* Project object */;
+}

@@ -1,0 +1,201 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4CB0F64213ABE73E00621971 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4CB0F64113ABE73E00621971 /* main.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		4CB0F63B13ABE73E00621971 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		4CB0F63D13ABE73E00621971 /* 549-Proste dodawanie */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "549-Proste dodawanie"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4CB0F64113ABE73E00621971 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		4CB0F64313ABE73E00621971 /* _49_Proste_dodawanie.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = _49_Proste_dodawanie.1; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4CB0F63A13ABE73E00621971 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4CB0F63213ABE73D00621971 = {
+			isa = PBXGroup;
+			children = (
+				4CB0F64013ABE73E00621971 /* 549-Proste dodawanie */,
+				4CB0F63E13ABE73E00621971 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4CB0F63E13ABE73E00621971 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4CB0F63D13ABE73E00621971 /* 549-Proste dodawanie */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4CB0F64013ABE73E00621971 /* 549-Proste dodawanie */ = {
+			isa = PBXGroup;
+			children = (
+				4CB0F64113ABE73E00621971 /* main.cpp */,
+				4CB0F64313ABE73E00621971 /* _49_Proste_dodawanie.1 */,
+			);
+			path = "549-Proste dodawanie";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4CB0F63C13ABE73E00621971 /* 549-Proste dodawanie */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4CB0F64613ABE73E00621971 /* Build configuration list for PBXNativeTarget "549-Proste dodawanie" */;
+			buildPhases = (
+				4CB0F63913ABE73E00621971 /* Sources */,
+				4CB0F63A13ABE73E00621971 /* Frameworks */,
+				4CB0F63B13ABE73E00621971 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "549-Proste dodawanie";
+			productName = "549-Proste dodawanie";
+			productReference = 4CB0F63D13ABE73E00621971 /* 549-Proste dodawanie */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4CB0F63413ABE73D00621971 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = Studen;
+			};
+			buildConfigurationList = 4CB0F63713ABE73D00621971 /* Build configuration list for PBXProject "549-Proste dodawanie" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 4CB0F63213ABE73D00621971;
+			productRefGroup = 4CB0F63E13ABE73E00621971 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4CB0F63C13ABE73E00621971 /* 549-Proste dodawanie */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4CB0F63913ABE73E00621971 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4CB0F64213ABE73E00621971 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		4CB0F64413ABE73E00621971 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		4CB0F64513ABE73E00621971 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		4CB0F64713ABE73E00621971 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		4CB0F64813ABE73E00621971 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4CB0F63713ABE73D00621971 /* Build configuration list for PBXProject "549-Proste dodawanie" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4CB0F64413ABE73E00621971 /* Debug */,
+				4CB0F64513ABE73E00621971 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4CB0F64613ABE73E00621971 /* Build configuration list for PBXNativeTarget "549-Proste dodawanie" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4CB0F64713ABE73E00621971 /* Debug */,
+				4CB0F64813ABE73E00621971 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4CB0F63413ABE73D00621971 /* Project object */;
+}

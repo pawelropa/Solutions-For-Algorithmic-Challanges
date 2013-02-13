@@ -1,0 +1,201 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4CA67D7613BA04CE001A8988 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4CA67D7513BA04CE001A8988 /* main.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		4CA67D6F13BA04CE001A8988 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		4CA67D7113BA04CE001A8988 /* 1145-Imieniny */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "1145-Imieniny"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4CA67D7513BA04CE001A8988 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		4CA67D7713BA04CE001A8988 /* _145_Imieniny.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = _145_Imieniny.1; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4CA67D6E13BA04CE001A8988 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4CA67D6613BA04CE001A8988 = {
+			isa = PBXGroup;
+			children = (
+				4CA67D7413BA04CE001A8988 /* 1145-Imieniny */,
+				4CA67D7213BA04CE001A8988 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4CA67D7213BA04CE001A8988 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4CA67D7113BA04CE001A8988 /* 1145-Imieniny */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4CA67D7413BA04CE001A8988 /* 1145-Imieniny */ = {
+			isa = PBXGroup;
+			children = (
+				4CA67D7513BA04CE001A8988 /* main.cpp */,
+				4CA67D7713BA04CE001A8988 /* _145_Imieniny.1 */,
+			);
+			path = "1145-Imieniny";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4CA67D7013BA04CE001A8988 /* 1145-Imieniny */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4CA67D7A13BA04CE001A8988 /* Build configuration list for PBXNativeTarget "1145-Imieniny" */;
+			buildPhases = (
+				4CA67D6D13BA04CE001A8988 /* Sources */,
+				4CA67D6E13BA04CE001A8988 /* Frameworks */,
+				4CA67D6F13BA04CE001A8988 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "1145-Imieniny";
+			productName = "1145-Imieniny";
+			productReference = 4CA67D7113BA04CE001A8988 /* 1145-Imieniny */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4CA67D6813BA04CE001A8988 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = Studen;
+			};
+			buildConfigurationList = 4CA67D6B13BA04CE001A8988 /* Build configuration list for PBXProject "1145-Imieniny" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 4CA67D6613BA04CE001A8988;
+			productRefGroup = 4CA67D7213BA04CE001A8988 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4CA67D7013BA04CE001A8988 /* 1145-Imieniny */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4CA67D6D13BA04CE001A8988 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4CA67D7613BA04CE001A8988 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		4CA67D7813BA04CE001A8988 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		4CA67D7913BA04CE001A8988 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		4CA67D7B13BA04CE001A8988 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		4CA67D7C13BA04CE001A8988 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4CA67D6B13BA04CE001A8988 /* Build configuration list for PBXProject "1145-Imieniny" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4CA67D7813BA04CE001A8988 /* Debug */,
+				4CA67D7913BA04CE001A8988 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4CA67D7A13BA04CE001A8988 /* Build configuration list for PBXNativeTarget "1145-Imieniny" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4CA67D7B13BA04CE001A8988 /* Debug */,
+				4CA67D7C13BA04CE001A8988 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4CA67D6813BA04CE001A8988 /* Project object */;
+}

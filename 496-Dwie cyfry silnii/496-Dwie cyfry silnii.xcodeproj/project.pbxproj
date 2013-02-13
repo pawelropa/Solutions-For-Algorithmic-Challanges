@@ -1,0 +1,201 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4C1D2B9A13ACB2000023E89E /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4C1D2B9913ACB2000023E89E /* main.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		4C1D2B9313ACB1FF0023E89E /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		4C1D2B9513ACB1FF0023E89E /* 496-Dwie cyfry silnii */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "496-Dwie cyfry silnii"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4C1D2B9913ACB2000023E89E /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		4C1D2B9B13ACB2000023E89E /* _96_Dwie_cyfry_silnii.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = _96_Dwie_cyfry_silnii.1; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4C1D2B9213ACB1FF0023E89E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4C1D2B8A13ACB1FF0023E89E = {
+			isa = PBXGroup;
+			children = (
+				4C1D2B9813ACB2000023E89E /* 496-Dwie cyfry silnii */,
+				4C1D2B9613ACB1FF0023E89E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4C1D2B9613ACB1FF0023E89E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4C1D2B9513ACB1FF0023E89E /* 496-Dwie cyfry silnii */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4C1D2B9813ACB2000023E89E /* 496-Dwie cyfry silnii */ = {
+			isa = PBXGroup;
+			children = (
+				4C1D2B9913ACB2000023E89E /* main.cpp */,
+				4C1D2B9B13ACB2000023E89E /* _96_Dwie_cyfry_silnii.1 */,
+			);
+			path = "496-Dwie cyfry silnii";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4C1D2B9413ACB1FF0023E89E /* 496-Dwie cyfry silnii */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4C1D2B9E13ACB2000023E89E /* Build configuration list for PBXNativeTarget "496-Dwie cyfry silnii" */;
+			buildPhases = (
+				4C1D2B9113ACB1FF0023E89E /* Sources */,
+				4C1D2B9213ACB1FF0023E89E /* Frameworks */,
+				4C1D2B9313ACB1FF0023E89E /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "496-Dwie cyfry silnii";
+			productName = "496-Dwie cyfry silnii";
+			productReference = 4C1D2B9513ACB1FF0023E89E /* 496-Dwie cyfry silnii */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4C1D2B8C13ACB1FF0023E89E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = Studen;
+			};
+			buildConfigurationList = 4C1D2B8F13ACB1FF0023E89E /* Build configuration list for PBXProject "496-Dwie cyfry silnii" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 4C1D2B8A13ACB1FF0023E89E;
+			productRefGroup = 4C1D2B9613ACB1FF0023E89E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4C1D2B9413ACB1FF0023E89E /* 496-Dwie cyfry silnii */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4C1D2B9113ACB1FF0023E89E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C1D2B9A13ACB2000023E89E /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		4C1D2B9C13ACB2000023E89E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		4C1D2B9D13ACB2000023E89E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		4C1D2B9F13ACB2000023E89E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		4C1D2BA013ACB2000023E89E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4C1D2B8F13ACB1FF0023E89E /* Build configuration list for PBXProject "496-Dwie cyfry silnii" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4C1D2B9C13ACB2000023E89E /* Debug */,
+				4C1D2B9D13ACB2000023E89E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4C1D2B9E13ACB2000023E89E /* Build configuration list for PBXNativeTarget "496-Dwie cyfry silnii" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4C1D2B9F13ACB2000023E89E /* Debug */,
+				4C1D2BA013ACB2000023E89E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4C1D2B8C13ACB1FF0023E89E /* Project object */;
+}

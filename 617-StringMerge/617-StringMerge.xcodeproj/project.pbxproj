@@ -1,0 +1,201 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4C26B26C13ADE0890073C67E /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4C26B26B13ADE0890073C67E /* main.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		4C26B26513ADE0890073C67E /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		4C26B26713ADE0890073C67E /* 617-StringMerge */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "617-StringMerge"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4C26B26B13ADE0890073C67E /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		4C26B26D13ADE0890073C67E /* _17_StringMerge.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = _17_StringMerge.1; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4C26B26413ADE0890073C67E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4C26B25C13ADE0890073C67E = {
+			isa = PBXGroup;
+			children = (
+				4C26B26A13ADE0890073C67E /* 617-StringMerge */,
+				4C26B26813ADE0890073C67E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4C26B26813ADE0890073C67E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4C26B26713ADE0890073C67E /* 617-StringMerge */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4C26B26A13ADE0890073C67E /* 617-StringMerge */ = {
+			isa = PBXGroup;
+			children = (
+				4C26B26B13ADE0890073C67E /* main.cpp */,
+				4C26B26D13ADE0890073C67E /* _17_StringMerge.1 */,
+			);
+			path = "617-StringMerge";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4C26B26613ADE0890073C67E /* 617-StringMerge */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4C26B27013ADE0890073C67E /* Build configuration list for PBXNativeTarget "617-StringMerge" */;
+			buildPhases = (
+				4C26B26313ADE0890073C67E /* Sources */,
+				4C26B26413ADE0890073C67E /* Frameworks */,
+				4C26B26513ADE0890073C67E /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "617-StringMerge";
+			productName = "617-StringMerge";
+			productReference = 4C26B26713ADE0890073C67E /* 617-StringMerge */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4C26B25E13ADE0890073C67E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = Studen;
+			};
+			buildConfigurationList = 4C26B26113ADE0890073C67E /* Build configuration list for PBXProject "617-StringMerge" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 4C26B25C13ADE0890073C67E;
+			productRefGroup = 4C26B26813ADE0890073C67E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4C26B26613ADE0890073C67E /* 617-StringMerge */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4C26B26313ADE0890073C67E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C26B26C13ADE0890073C67E /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		4C26B26E13ADE0890073C67E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		4C26B26F13ADE0890073C67E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		4C26B27113ADE0890073C67E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		4C26B27213ADE0890073C67E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4C26B26113ADE0890073C67E /* Build configuration list for PBXProject "617-StringMerge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4C26B26E13ADE0890073C67E /* Debug */,
+				4C26B26F13ADE0890073C67E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4C26B27013ADE0890073C67E /* Build configuration list for PBXNativeTarget "617-StringMerge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4C26B27113ADE0890073C67E /* Debug */,
+				4C26B27213ADE0890073C67E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4C26B25E13ADE0890073C67E /* Project object */;
+}

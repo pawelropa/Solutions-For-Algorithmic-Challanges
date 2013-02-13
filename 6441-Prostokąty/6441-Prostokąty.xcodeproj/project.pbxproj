@@ -1,0 +1,201 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4C71CA8E13CA0FB500B725E2 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4C71CA8D13CA0FB500B725E2 /* main.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		4C71CA8713CA0FB400B725E2 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		4C71CA8913CA0FB400B725E2 /* 6441-Prostokąty */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "6441-Prostokąty"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4C71CA8D13CA0FB500B725E2 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		4C71CA8F13CA0FB500B725E2 /* _441_Prostoka_ty.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = _441_Prostoka_ty.1; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4C71CA8613CA0FB400B725E2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4C71CA7E13CA0FB400B725E2 = {
+			isa = PBXGroup;
+			children = (
+				4C71CA8C13CA0FB500B725E2 /* 6441-Prostokąty */,
+				4C71CA8A13CA0FB400B725E2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4C71CA8A13CA0FB400B725E2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4C71CA8913CA0FB400B725E2 /* 6441-Prostokąty */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4C71CA8C13CA0FB500B725E2 /* 6441-Prostokąty */ = {
+			isa = PBXGroup;
+			children = (
+				4C71CA8D13CA0FB500B725E2 /* main.cpp */,
+				4C71CA8F13CA0FB500B725E2 /* _441_Prostoka_ty.1 */,
+			);
+			path = "6441-Prostokąty";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4C71CA8813CA0FB400B725E2 /* 6441-Prostokąty */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4C71CA9213CA0FB500B725E2 /* Build configuration list for PBXNativeTarget "6441-Prostokąty" */;
+			buildPhases = (
+				4C71CA8513CA0FB400B725E2 /* Sources */,
+				4C71CA8613CA0FB400B725E2 /* Frameworks */,
+				4C71CA8713CA0FB400B725E2 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "6441-Prostokąty";
+			productName = "6441-Prostokąty";
+			productReference = 4C71CA8913CA0FB400B725E2 /* 6441-Prostokąty */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4C71CA8013CA0FB400B725E2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = Studen;
+			};
+			buildConfigurationList = 4C71CA8313CA0FB400B725E2 /* Build configuration list for PBXProject "6441-Prostokąty" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 4C71CA7E13CA0FB400B725E2;
+			productRefGroup = 4C71CA8A13CA0FB400B725E2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4C71CA8813CA0FB400B725E2 /* 6441-Prostokąty */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4C71CA8513CA0FB400B725E2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C71CA8E13CA0FB500B725E2 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		4C71CA9013CA0FB500B725E2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		4C71CA9113CA0FB500B725E2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		4C71CA9313CA0FB500B725E2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		4C71CA9413CA0FB500B725E2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4C71CA8313CA0FB400B725E2 /* Build configuration list for PBXProject "6441-Prostokąty" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4C71CA9013CA0FB500B725E2 /* Debug */,
+				4C71CA9113CA0FB500B725E2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4C71CA9213CA0FB500B725E2 /* Build configuration list for PBXNativeTarget "6441-Prostokąty" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4C71CA9313CA0FB500B725E2 /* Debug */,
+				4C71CA9413CA0FB500B725E2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4C71CA8013CA0FB400B725E2 /* Project object */;
+}

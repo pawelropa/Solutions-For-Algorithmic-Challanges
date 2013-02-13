@@ -1,0 +1,201 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4C0F4BD213C998950084DBE4 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4C0F4BD113C998950084DBE4 /* main.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		4C0F4BCB13C998950084DBE4 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		4C0F4BCD13C998950084DBE4 /* 3328-Histogram z liczb */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "3328-Histogram z liczb"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4C0F4BD113C998950084DBE4 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		4C0F4BD313C998950084DBE4 /* _328_Histogram_z_liczb.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = _328_Histogram_z_liczb.1; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4C0F4BCA13C998950084DBE4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4C0F4BC213C998950084DBE4 = {
+			isa = PBXGroup;
+			children = (
+				4C0F4BD013C998950084DBE4 /* 3328-Histogram z liczb */,
+				4C0F4BCE13C998950084DBE4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4C0F4BCE13C998950084DBE4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4C0F4BCD13C998950084DBE4 /* 3328-Histogram z liczb */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4C0F4BD013C998950084DBE4 /* 3328-Histogram z liczb */ = {
+			isa = PBXGroup;
+			children = (
+				4C0F4BD113C998950084DBE4 /* main.cpp */,
+				4C0F4BD313C998950084DBE4 /* _328_Histogram_z_liczb.1 */,
+			);
+			path = "3328-Histogram z liczb";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4C0F4BCC13C998950084DBE4 /* 3328-Histogram z liczb */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4C0F4BD613C998950084DBE4 /* Build configuration list for PBXNativeTarget "3328-Histogram z liczb" */;
+			buildPhases = (
+				4C0F4BC913C998950084DBE4 /* Sources */,
+				4C0F4BCA13C998950084DBE4 /* Frameworks */,
+				4C0F4BCB13C998950084DBE4 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "3328-Histogram z liczb";
+			productName = "3328-Histogram z liczb";
+			productReference = 4C0F4BCD13C998950084DBE4 /* 3328-Histogram z liczb */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4C0F4BC413C998950084DBE4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = Studen;
+			};
+			buildConfigurationList = 4C0F4BC713C998950084DBE4 /* Build configuration list for PBXProject "3328-Histogram z liczb" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 4C0F4BC213C998950084DBE4;
+			productRefGroup = 4C0F4BCE13C998950084DBE4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4C0F4BCC13C998950084DBE4 /* 3328-Histogram z liczb */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4C0F4BC913C998950084DBE4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C0F4BD213C998950084DBE4 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		4C0F4BD413C998950084DBE4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		4C0F4BD513C998950084DBE4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		4C0F4BD713C998950084DBE4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		4C0F4BD813C998950084DBE4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4C0F4BC713C998950084DBE4 /* Build configuration list for PBXProject "3328-Histogram z liczb" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4C0F4BD413C998950084DBE4 /* Debug */,
+				4C0F4BD513C998950084DBE4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4C0F4BD613C998950084DBE4 /* Build configuration list for PBXNativeTarget "3328-Histogram z liczb" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4C0F4BD713C998950084DBE4 /* Debug */,
+				4C0F4BD813C998950084DBE4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4C0F4BC413C998950084DBE4 /* Project object */;
+}

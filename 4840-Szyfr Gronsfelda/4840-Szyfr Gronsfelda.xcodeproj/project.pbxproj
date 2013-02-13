@@ -1,0 +1,201 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4CBB6FA513C31E070007908F /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4CBB6FA413C31E070007908F /* main.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		4CBB6F9E13C31E070007908F /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		4CBB6FA013C31E070007908F /* 4840-Szyfr Gronsfelda */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "4840-Szyfr Gronsfelda"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4CBB6FA413C31E070007908F /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		4CBB6FA613C31E070007908F /* _840_Szyfr_Gronsfelda.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = _840_Szyfr_Gronsfelda.1; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4CBB6F9D13C31E070007908F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4CBB6F9513C31E070007908F = {
+			isa = PBXGroup;
+			children = (
+				4CBB6FA313C31E070007908F /* 4840-Szyfr Gronsfelda */,
+				4CBB6FA113C31E070007908F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4CBB6FA113C31E070007908F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4CBB6FA013C31E070007908F /* 4840-Szyfr Gronsfelda */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4CBB6FA313C31E070007908F /* 4840-Szyfr Gronsfelda */ = {
+			isa = PBXGroup;
+			children = (
+				4CBB6FA413C31E070007908F /* main.cpp */,
+				4CBB6FA613C31E070007908F /* _840_Szyfr_Gronsfelda.1 */,
+			);
+			path = "4840-Szyfr Gronsfelda";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4CBB6F9F13C31E070007908F /* 4840-Szyfr Gronsfelda */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4CBB6FA913C31E070007908F /* Build configuration list for PBXNativeTarget "4840-Szyfr Gronsfelda" */;
+			buildPhases = (
+				4CBB6F9C13C31E070007908F /* Sources */,
+				4CBB6F9D13C31E070007908F /* Frameworks */,
+				4CBB6F9E13C31E070007908F /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "4840-Szyfr Gronsfelda";
+			productName = "4840-Szyfr Gronsfelda";
+			productReference = 4CBB6FA013C31E070007908F /* 4840-Szyfr Gronsfelda */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4CBB6F9713C31E070007908F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = Studen;
+			};
+			buildConfigurationList = 4CBB6F9A13C31E070007908F /* Build configuration list for PBXProject "4840-Szyfr Gronsfelda" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 4CBB6F9513C31E070007908F;
+			productRefGroup = 4CBB6FA113C31E070007908F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4CBB6F9F13C31E070007908F /* 4840-Szyfr Gronsfelda */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4CBB6F9C13C31E070007908F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4CBB6FA513C31E070007908F /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		4CBB6FA713C31E070007908F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		4CBB6FA813C31E070007908F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		4CBB6FAA13C31E070007908F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		4CBB6FAB13C31E070007908F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4CBB6F9A13C31E070007908F /* Build configuration list for PBXProject "4840-Szyfr Gronsfelda" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4CBB6FA713C31E070007908F /* Debug */,
+				4CBB6FA813C31E070007908F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4CBB6FA913C31E070007908F /* Build configuration list for PBXNativeTarget "4840-Szyfr Gronsfelda" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4CBB6FAA13C31E070007908F /* Debug */,
+				4CBB6FAB13C31E070007908F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4CBB6F9713C31E070007908F /* Project object */;
+}

@@ -1,0 +1,201 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4C26B2D013AE194E0073C67E /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4C26B2CF13AE194E0073C67E /* main.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		4C26B2C913AE194E0073C67E /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		4C26B2CB13AE194E0073C67E /* 1978-Zliczanie linii */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "1978-Zliczanie linii"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4C26B2CF13AE194E0073C67E /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		4C26B2D113AE194E0073C67E /* _978_Zliczanie_linii.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = _978_Zliczanie_linii.1; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4C26B2C813AE194E0073C67E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4C26B2C013AE194E0073C67E = {
+			isa = PBXGroup;
+			children = (
+				4C26B2CE13AE194E0073C67E /* 1978-Zliczanie linii */,
+				4C26B2CC13AE194E0073C67E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4C26B2CC13AE194E0073C67E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4C26B2CB13AE194E0073C67E /* 1978-Zliczanie linii */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4C26B2CE13AE194E0073C67E /* 1978-Zliczanie linii */ = {
+			isa = PBXGroup;
+			children = (
+				4C26B2CF13AE194E0073C67E /* main.cpp */,
+				4C26B2D113AE194E0073C67E /* _978_Zliczanie_linii.1 */,
+			);
+			path = "1978-Zliczanie linii";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4C26B2CA13AE194E0073C67E /* 1978-Zliczanie linii */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4C26B2D413AE194E0073C67E /* Build configuration list for PBXNativeTarget "1978-Zliczanie linii" */;
+			buildPhases = (
+				4C26B2C713AE194E0073C67E /* Sources */,
+				4C26B2C813AE194E0073C67E /* Frameworks */,
+				4C26B2C913AE194E0073C67E /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "1978-Zliczanie linii";
+			productName = "1978-Zliczanie linii";
+			productReference = 4C26B2CB13AE194E0073C67E /* 1978-Zliczanie linii */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4C26B2C213AE194E0073C67E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = Studen;
+			};
+			buildConfigurationList = 4C26B2C513AE194E0073C67E /* Build configuration list for PBXProject "1978-Zliczanie linii" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 4C26B2C013AE194E0073C67E;
+			productRefGroup = 4C26B2CC13AE194E0073C67E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4C26B2CA13AE194E0073C67E /* 1978-Zliczanie linii */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4C26B2C713AE194E0073C67E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C26B2D013AE194E0073C67E /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		4C26B2D213AE194E0073C67E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		4C26B2D313AE194E0073C67E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		4C26B2D513AE194E0073C67E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		4C26B2D613AE194E0073C67E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4C26B2C513AE194E0073C67E /* Build configuration list for PBXProject "1978-Zliczanie linii" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4C26B2D213AE194E0073C67E /* Debug */,
+				4C26B2D313AE194E0073C67E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4C26B2D413AE194E0073C67E /* Build configuration list for PBXNativeTarget "1978-Zliczanie linii" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4C26B2D513AE194E0073C67E /* Debug */,
+				4C26B2D613AE194E0073C67E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4C26B2C213AE194E0073C67E /* Project object */;
+}

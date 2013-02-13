@@ -1,0 +1,201 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4C5CE42613C5C51400A92733 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4C5CE42513C5C51400A92733 /* main.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		4C5CE41F13C5C51300A92733 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		4C5CE42113C5C51300A92733 /* 4797-Skracanie identyfikatorów */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "4797-Skracanie identyfikatorów"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4C5CE42513C5C51400A92733 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		4C5CE42713C5C51400A92733 /* _797_Skracanie_identyfikatoro_w.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = _797_Skracanie_identyfikatoro_w.1; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4C5CE41E13C5C51300A92733 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4C5CE41613C5C51300A92733 = {
+			isa = PBXGroup;
+			children = (
+				4C5CE42413C5C51400A92733 /* 4797-Skracanie identyfikatorów */,
+				4C5CE42213C5C51300A92733 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4C5CE42213C5C51300A92733 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4C5CE42113C5C51300A92733 /* 4797-Skracanie identyfikatorów */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4C5CE42413C5C51400A92733 /* 4797-Skracanie identyfikatorów */ = {
+			isa = PBXGroup;
+			children = (
+				4C5CE42513C5C51400A92733 /* main.cpp */,
+				4C5CE42713C5C51400A92733 /* _797_Skracanie_identyfikatoro_w.1 */,
+			);
+			path = "4797-Skracanie identyfikatorów";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4C5CE42013C5C51300A92733 /* 4797-Skracanie identyfikatorów */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4C5CE42A13C5C51400A92733 /* Build configuration list for PBXNativeTarget "4797-Skracanie identyfikatorów" */;
+			buildPhases = (
+				4C5CE41D13C5C51300A92733 /* Sources */,
+				4C5CE41E13C5C51300A92733 /* Frameworks */,
+				4C5CE41F13C5C51300A92733 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "4797-Skracanie identyfikatorów";
+			productName = "4797-Skracanie identyfikatorów";
+			productReference = 4C5CE42113C5C51300A92733 /* 4797-Skracanie identyfikatorów */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4C5CE41813C5C51300A92733 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = Studen;
+			};
+			buildConfigurationList = 4C5CE41B13C5C51300A92733 /* Build configuration list for PBXProject "4797-Skracanie identyfikatorów" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 4C5CE41613C5C51300A92733;
+			productRefGroup = 4C5CE42213C5C51300A92733 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4C5CE42013C5C51300A92733 /* 4797-Skracanie identyfikatorów */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4C5CE41D13C5C51300A92733 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C5CE42613C5C51400A92733 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		4C5CE42813C5C51400A92733 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		4C5CE42913C5C51400A92733 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		4C5CE42B13C5C51400A92733 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		4C5CE42C13C5C51400A92733 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4C5CE41B13C5C51300A92733 /* Build configuration list for PBXProject "4797-Skracanie identyfikatorów" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4C5CE42813C5C51400A92733 /* Debug */,
+				4C5CE42913C5C51400A92733 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4C5CE42A13C5C51400A92733 /* Build configuration list for PBXNativeTarget "4797-Skracanie identyfikatorów" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4C5CE42B13C5C51400A92733 /* Debug */,
+				4C5CE42C13C5C51400A92733 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4C5CE41813C5C51300A92733 /* Project object */;
+}

@@ -1,0 +1,201 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4CE18D7F13BB6F9C007617B7 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4CE18D7E13BB6F9C007617B7 /* main.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		4CE18D7813BB6F9C007617B7 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		4CE18D7A13BB6F9C007617B7 /* 1911-Zliczanie liczb i wyrazów */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "1911-Zliczanie liczb i wyrazów"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4CE18D7E13BB6F9C007617B7 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		4CE18D8013BB6F9C007617B7 /* _911_Zliczanie_liczb_i_wyrazo_w.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = _911_Zliczanie_liczb_i_wyrazo_w.1; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4CE18D7713BB6F9C007617B7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4CE18D6F13BB6F9C007617B7 = {
+			isa = PBXGroup;
+			children = (
+				4CE18D7D13BB6F9C007617B7 /* 1911-Zliczanie liczb i wyrazów */,
+				4CE18D7B13BB6F9C007617B7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4CE18D7B13BB6F9C007617B7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4CE18D7A13BB6F9C007617B7 /* 1911-Zliczanie liczb i wyrazów */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4CE18D7D13BB6F9C007617B7 /* 1911-Zliczanie liczb i wyrazów */ = {
+			isa = PBXGroup;
+			children = (
+				4CE18D7E13BB6F9C007617B7 /* main.cpp */,
+				4CE18D8013BB6F9C007617B7 /* _911_Zliczanie_liczb_i_wyrazo_w.1 */,
+			);
+			path = "1911-Zliczanie liczb i wyrazów";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4CE18D7913BB6F9C007617B7 /* 1911-Zliczanie liczb i wyrazów */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4CE18D8313BB6F9C007617B7 /* Build configuration list for PBXNativeTarget "1911-Zliczanie liczb i wyrazów" */;
+			buildPhases = (
+				4CE18D7613BB6F9C007617B7 /* Sources */,
+				4CE18D7713BB6F9C007617B7 /* Frameworks */,
+				4CE18D7813BB6F9C007617B7 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "1911-Zliczanie liczb i wyrazów";
+			productName = "1911-Zliczanie liczb i wyrazów";
+			productReference = 4CE18D7A13BB6F9C007617B7 /* 1911-Zliczanie liczb i wyrazów */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4CE18D7113BB6F9C007617B7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = Studen;
+			};
+			buildConfigurationList = 4CE18D7413BB6F9C007617B7 /* Build configuration list for PBXProject "1911-Zliczanie liczb i wyrazów" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 4CE18D6F13BB6F9C007617B7;
+			productRefGroup = 4CE18D7B13BB6F9C007617B7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4CE18D7913BB6F9C007617B7 /* 1911-Zliczanie liczb i wyrazów */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4CE18D7613BB6F9C007617B7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4CE18D7F13BB6F9C007617B7 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		4CE18D8113BB6F9C007617B7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		4CE18D8213BB6F9C007617B7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		4CE18D8413BB6F9C007617B7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		4CE18D8513BB6F9C007617B7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4CE18D7413BB6F9C007617B7 /* Build configuration list for PBXProject "1911-Zliczanie liczb i wyrazów" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4CE18D8113BB6F9C007617B7 /* Debug */,
+				4CE18D8213BB6F9C007617B7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4CE18D8313BB6F9C007617B7 /* Build configuration list for PBXNativeTarget "1911-Zliczanie liczb i wyrazów" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4CE18D8413BB6F9C007617B7 /* Debug */,
+				4CE18D8513BB6F9C007617B7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4CE18D7113BB6F9C007617B7 /* Project object */;
+}

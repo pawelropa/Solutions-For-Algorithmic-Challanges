@@ -1,0 +1,201 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4C598E0613CCD41300607B5F /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4C598E0513CCD41300607B5F /* main.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		4C598DFF13CCD41200607B5F /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		4C598E0113CCD41200607B5F /* 9022-Bajtockie Święto Trójkąta */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "9022-Bajtockie Święto Trójkąta"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4C598E0513CCD41300607B5F /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		4C598E0713CCD41300607B5F /* _022_Bajtockie_S_wie_to_Tro_jka_ta.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = _022_Bajtockie_S_wie_to_Tro_jka_ta.1; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4C598DFE13CCD41200607B5F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4C598DF613CCD41200607B5F = {
+			isa = PBXGroup;
+			children = (
+				4C598E0413CCD41200607B5F /* 9022-Bajtockie Święto Trójkąta */,
+				4C598E0213CCD41200607B5F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4C598E0213CCD41200607B5F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4C598E0113CCD41200607B5F /* 9022-Bajtockie Święto Trójkąta */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4C598E0413CCD41200607B5F /* 9022-Bajtockie Święto Trójkąta */ = {
+			isa = PBXGroup;
+			children = (
+				4C598E0513CCD41300607B5F /* main.cpp */,
+				4C598E0713CCD41300607B5F /* _022_Bajtockie_S_wie_to_Tro_jka_ta.1 */,
+			);
+			path = "9022-Bajtockie Święto Trójkąta";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4C598E0013CCD41200607B5F /* 9022-Bajtockie Święto Trójkąta */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4C598E0A13CCD41300607B5F /* Build configuration list for PBXNativeTarget "9022-Bajtockie Święto Trójkąta" */;
+			buildPhases = (
+				4C598DFD13CCD41200607B5F /* Sources */,
+				4C598DFE13CCD41200607B5F /* Frameworks */,
+				4C598DFF13CCD41200607B5F /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "9022-Bajtockie Święto Trójkąta";
+			productName = "9022-Bajtockie Święto Trójkąta";
+			productReference = 4C598E0113CCD41200607B5F /* 9022-Bajtockie Święto Trójkąta */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4C598DF813CCD41200607B5F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = Studen;
+			};
+			buildConfigurationList = 4C598DFB13CCD41200607B5F /* Build configuration list for PBXProject "9022-Bajtockie Święto Trójkąta" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 4C598DF613CCD41200607B5F;
+			productRefGroup = 4C598E0213CCD41200607B5F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4C598E0013CCD41200607B5F /* 9022-Bajtockie Święto Trójkąta */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4C598DFD13CCD41200607B5F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C598E0613CCD41300607B5F /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		4C598E0813CCD41300607B5F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		4C598E0913CCD41300607B5F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		4C598E0B13CCD41300607B5F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		4C598E0C13CCD41300607B5F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4C598DFB13CCD41200607B5F /* Build configuration list for PBXProject "9022-Bajtockie Święto Trójkąta" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4C598E0813CCD41300607B5F /* Debug */,
+				4C598E0913CCD41300607B5F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4C598E0A13CCD41300607B5F /* Build configuration list for PBXNativeTarget "9022-Bajtockie Święto Trójkąta" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4C598E0B13CCD41300607B5F /* Debug */,
+				4C598E0C13CCD41300607B5F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4C598DF813CCD41200607B5F /* Project object */;
+}
